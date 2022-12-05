@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal-Inline</title>
+    <style>
+      img {
+        width: 50%;
+        border: 2px solid purple;
+        border-radius: 50%;
+        border-style: dotted;
+      }
+      /*class'a göre seçim*/
+
+      .img-div {
+        text-align: center;
+      }
+      #par{color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: justify;
+font-weight: 900;}
+    </style>
+  </head>
+  <body>
+    <!-- 
+    *inline.css html elementlerine style keyword'u ile eklenir.
+    *style kelimesinin içi aslında css alanıdır.
+    *sadece eklenen element için br stillendirme gerçekleştirir.
+-->
+    <h1 style="color: red; text-align: center">Using CSS</h1>
+ 
+    <p style="background-color: lightgreen">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+      quae.
+    </p>
+    <div class="img-div">
+      <img src="https://st.depositphotos.com/1757635/4231/i/600/depositphotos_42315217-stock-photo-hands-making-heart-sign.jpg" alt="">
+
+      <img src="https://media.istockphoto.com/id/1222270563/tr/foto%C4%9Fraf/maidens-tower-istanbul-t%C3%BCrkiye.jpg?s=612x612&w=0&k=20&c=tsY7GeT3cayPhnU-gmEgdkMGnTABym0VQu3OUrqlTnk=" alt="">
+    </div>
+
+    <p id="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem atque perspiciatis? Similique, adipisci veniam?</p>
+  </body>
+</html>
